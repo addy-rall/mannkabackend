@@ -1,6 +1,6 @@
 // controllers/bookingController.js
 const Booking = require('../models/Booking');
-const transporter = require('../config/email');
+
 
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || process.env.EMAIL_USER;
 
